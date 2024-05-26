@@ -4,6 +4,7 @@ public class Vehiculo {
         private String modelo;
         private int año;
         private int kilometraje;
+        
         // Constructon
         public Vehiculo(String marca, String modelo, int año, int kilometraje) {
         this.marca = marca;
@@ -52,5 +53,13 @@ public void mostrarInfo() {
     System.out.println("Modelo: " + modelo);
     System.out.println("Año: " + año);
     System.out.println("Kilometraje: " + kilometraje);
+}
+
+public void realizarmantenimiento(){
+    System.out.println("Cambio de aceite");
+    System.out.println("Revision de llantas");
+    System.out.println("Comprobar frenos");
+    System.out.println("limpieza");
+    
 }
     }

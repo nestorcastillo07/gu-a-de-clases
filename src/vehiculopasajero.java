@@ -23,5 +23,10 @@ public void mostrarInfo(){
     System.out.println("num psajero: " + numpasajero);
 }
 
+@Override 
+public void realizarmantenimiento(){
+    super.realizarmantenimiento();
+}
+
 
 }

@@ -22,5 +22,10 @@ public void mostrarInfo(){
     super.mostrarInfo();
     System.out.println("Numero de eje es : " + numeeje);
 }
+@Override 
+public void realizarmantenimiento(){
+    super.realizarmantenimiento();
+    System.out.println("Adicional a este tipo de vehiculo: limpiar ejes");
+}
 
 }

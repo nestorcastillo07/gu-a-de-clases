@@ -24,5 +24,8 @@ public VehiculoCarga(String marca, String modelo, int año, int kilometraje, int
     System.out.println("capacidad de carga: " + capacidadcarga +" kg");
 
  }
-
+ @Override 
+public void realizarmantenimiento(){
+    super.realizarmantenimiento();
+}
 }
